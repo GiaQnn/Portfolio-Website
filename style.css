@@ -259,7 +259,7 @@ section {
 }
 
 .text-section {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 5rem;
   margin-bottom: 1rem;
   color: rgb(9, 54, 151);
@@ -356,4 +356,27 @@ article {
 .checkmark-icon {
   width: 25px;
   height: 25px;
+}
+
+/* PROJECTS */
+#projects{
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  cursor: default;
+  gap: 3rem;
+}
+
+.loading {
+  margin-top: 2rem;
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
 }

@@ -256,6 +256,7 @@ section {
   text-align: center;
   flex-direction: column;
   cursor: default;
+  margin-top: 3rem;
 }
 
 .text-section {
@@ -414,4 +415,15 @@ article {
 .contact-icon {
   height: 35px;
   width: 35px;
+}
+
+/* FOOTER */
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+  margin-top: 8em;
+}
+
+footer p {
+  text-align: center;
 }
